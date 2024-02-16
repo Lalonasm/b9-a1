@@ -105,11 +105,13 @@
 }
 
 /* ........................ */
-.gift{
-    width: 1600px;
+.gift {
+    width: 1320px;
     height: 100%;
     margin: 20px;
+    margin: 140px;
 }
+
 .portfolio-title {
     color: #F00;
     font-family: Inter;
@@ -138,14 +140,110 @@
     line-height: 32px;
     /* 160% */
 }
-.grid-container{
+
+/* .......................... */
+.best-offer {
     display: grid;
-    grid-template-columns: auto auto auto ;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    width: 1320px;
+    height: 733px;
+    background: #FFF;
+    margin: 150px;
+}
+
+.best-offer-title {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight:bolder;
+    line-height: normal;
+}
+
+.best-offer-come {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.best-offer-content {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+/* ....................................... */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
     padding: 20px;
 }
-.grid-item{
+
+.grid-item {
     margin-right: 5px;
 }
+
+.grid-item:hover {
+    background-color: brown;
+    margin-right: 10px;
+}
+
+/* .......................... */
+.newsletter {
+    width: 1320px;
+    height: 616px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 140px;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.newsletter-image {
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+}
+
+.newsletter-title {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.newsletter-input {
+    width: 440px;
+    height: 72px;
+    flex-shrink: 0;
+    font-size: 30px;
+}
+
+.newsletter-btn {
+    width: 210px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border-right: 0;
+}
+
+
+
 
 /* footer style section */
 footer {
@@ -177,4 +275,10 @@ footer {
     align-items: center;
     /* display: inline; */
     text-align: center;
+}
+
+.footer-btn {
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 2px;
 }
