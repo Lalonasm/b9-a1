@@ -1,0 +1,23 @@
+.banner {
+    margin: 50px 150px;
+    background-image: url("../resources/Banner\ Image.png");
+    width: 1320px;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: normal; */
+    height: 600px;
+    border-top: 100px;
+}
+
+.banner-greeting {
+    color: white;
+    font-size: 32px;
+}
+
+.banner-content {
+    font-size: 72px;
+    color: white;
+}
