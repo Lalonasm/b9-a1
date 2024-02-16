@@ -64,25 +64,27 @@
 
 .party {
     background-image: url("/resources/Vectorrr.png");
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 100%);
     width: 1320px;
     height: 600px;
     flex-shrink: 0;
     margin: 150px;
-    justify-content: center;
+    justify-content: left;
+    text-align: center;
 }
 
 .party-greeting {
     color: #FFF;
     font-family: Merriweather;
     font-size: 64px;
-    font-style: normal;
+    padding: 30px;
     font-weight: 900;
     line-height: 88px;
     letter-spacing: 7.04px;
 }
 
 .party-content {
-    color: rgba(255, 255, 255, 0.80);
+    color: whitesmoke;
     font-family: Inter;
     font-size: 18px;
     font-style: normal;
@@ -91,14 +93,58 @@
 }
 
 .party-btn {
-    color: #FFF;
+    color: burlywood;
     text-align: center;
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    text-transform: uppercase;
+    border: 2px solid white;
+    border-radius: 2px;
+}
+
+/* ........................ */
+.gift{
+    width: 1600px;
+    height: 100%;
+    margin: 20px;
+}
+.portfolio-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.portfolio-greeting {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.portfolio-content {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    padding: 20px;
+}
+.grid-item{
+    margin-right: 5px;
 }
 
 /* footer style section */
@@ -107,6 +153,7 @@ footer {
     height: 609px;
     background-color: black;
     padding: 50px;
+    border-radius: 10px;
 }
 
 .address {
@@ -118,14 +165,16 @@ footer {
     font-weight: 500;
     line-height: 40px;
     justify-content: space-between;
+    padding: 20px;
 
 }
 
 .logo-items {
-    justify-content: center;
-    padding: auto;
-    height: 300px;
+    /* justify-content: center; */
+    padding: 20px;
+    height: 200px;
     margin: 10px;
     align-items: center;
-    display: inline;
+    /* display: inline; */
+    text-align: center;
 }
