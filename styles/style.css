@@ -21,3 +21,111 @@
     font-size: 72px;
     color: white;
 }
+
+/* main style section */
+.offer {
+    /* width: 100px 400px; */
+    justify-content: center;
+    margin: 100px 400px;
+    background-color: #FFF;
+}
+
+.offer-greeting {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.offer-content {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.offer-all {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* ............................ */
+
+.party {
+    background-image: url("/resources/Vectorrr.png");
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    margin: 150px;
+    justify-content: center;
+}
+
+.party-greeting {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+
+.party-content {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.party-btn {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+/* footer style section */
+footer {
+    width: 1600px;
+    height: 609px;
+    background-color: black;
+    padding: 50px;
+}
+
+.address {
+    color: #FFF;
+    display: flex;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    justify-content: space-between;
+
+}
+
+.logo-items {
+    justify-content: center;
+    padding: auto;
+    height: 300px;
+    margin: 10px;
+    align-items: center;
+    display: inline;
+}
